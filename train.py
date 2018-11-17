@@ -62,7 +62,6 @@ def validation(model, validloader, criterion):
 
 
 def train_model(model, trainloader, validloader, criterion, optimizer, device, epochs=3):
-# define hyperparameters
 
     steps = 0
     running_loss = 0
